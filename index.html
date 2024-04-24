@@ -1,0 +1,100 @@
+<!DOCTYPE html> <!--Esta etiqueta ndica al navegador que el documento está escrito en HTML5, la última versión estándar de HTML en ese momento-->
+<html> <!--Esta etiqueta marca el inicio y fin del documento HTML.-->
+<head> <!--Esta etiqueta define la sección de encabezado del documento.-->
+<title>Formulario de prueba de HTML5</title>  <!--Esta etiqueta define el título de la página mostrado en el navegador-->
+</head>
+<body>  <!-- La etiqueta <body> define el contenido principal del documento HTML. -->
+        <!-- Aquí comienza el cuerpo del documento. -->
+
+<form action="" method="get">
+<!-- La etiqueta <form> define un formulario para recopilar datos del usuario. -->
+<!-- Este formulario envía los datos introducidos por el usuario mediante el método GET. -->
+
+<p> <!-- La etiqueta <p> define un párrafo en el documento HTML. -->
+Nombre: <input type="text" name="name_control" autofocus required />
+<!-- La etiqueta <input> define un campo de entrada dentro del formulario. -->
+<!-- El atributo "type" especifica el tipo de campo, que en este caso es "text" para texto normal. -->
+<!-- El atributo "name" proporciona un nombre para el campo, que se utilizará para identificarlo cuando se envíen los datos. -->
+<!-- El atributo "autofocus" hace que este campo sea seleccionado automáticamente al cargar la página. -->
+<!-- El atributo "required" hace que este campo sea obligatorio. -->
+</p>
+
+<p>
+Correo electrónico: <input type="email" name="email_control" required />
+<!-- Campo de entrada para que el usuario ingrese su dirección de correo electrónico. -->
+<!-- El tipo "email" valida automáticamente si la entrada es una dirección de correo electrónico válida. -->
+<!-- El atributo "required" hace que este campo sea obligatorio. -->
+</p>
+
+<p>
+URL: <input type="url" name="url_control" placeholder="Escribe la URL de tu página web personal" />
+<!-- Campo de entrada para que el usuario ingrese una URL. -->
+<!-- El tipo "url" valida automáticamente si la entrada es una URL válida. -->
+<!-- El atributo "placeholder" muestra un texto de ejemplo dentro del campo antes de que se introduzca cualquier valor. -->
+</p>
+
+<p>
+Fecha: <input type="date" name="date_control" />
+<!-- Campo de entrada para que el usuario seleccione una fecha. -->
+<!-- El tipo "date" muestra un calendario para seleccionar la fecha. -->
+</p>
+
+<p>
+Tiempo: <input type="time" name="time_control" />
+<!-- Campo de entrada para que el usuario seleccione una hora. -->
+<!-- El tipo "time" muestra un selector de hora. -->
+</p>
+
+<p>
+Fecha y hora: <input type="datetime" name="datetime_control" />
+<!-- Campo de entrada para que el usuario seleccione una fecha y hora. -->
+<!-- El tipo "datetime" muestra un calendario y un selector de hora. -->
+</p>
+
+<p>
+Mes: <input type="month" name="month_control" />
+<!-- Campo de entrada para que el usuario seleccione un mes. -->
+<!-- El tipo "month" muestra un selector de mes. -->
+</p>
+
+<p>
+Semana: <input type="week" name="week_control" />
+<!-- Campo de entrada para que el usuario seleccione una semana. -->
+<!-- El tipo "week" muestra un selector de semana. -->
+</p>
+
+<p>
+Número (min -10, max 10): <input type="number" name="number_control" min="-10" max="10" value="0" />
+<!-- Campo de entrada para que el usuario ingrese un número. -->
+<!-- El tipo "number" muestra un campo de entrada numérico. -->
+<!-- Los atributos "min" y "max" especifican el rango permitido para el número. -->
+<!-- El atributo "value" establece el valor predeterminado del campo. -->
+</p>
+
+<p>
+Teléfono: <input type="tel" name="tel_control" />
+<!-- Campo de entrada para que el usuario ingrese un número de teléfono. -->
+<!-- El tipo "tel" muestra un campo de entrada específico para números de teléfono. -->
+</p>
+
+<p>
+Término de búsqueda: <input type="search" name="search_control" />
+<!-- Campo de entrada para que el usuario ingrese un término de búsqueda. -->
+<!-- El tipo "search" muestra un campo de búsqueda con funcionalidades adicionales según el navegador. -->
+</p>
+
+<p>
+Color favorito: <input type="color" name="color_control" />
+<!-- Campo de entrada para que el usuario seleccione un color. -->
+<!-- El tipo "color" muestra un selector de color. -->
+</p>
+
+<p>
+<input type="submit" value="Enviar" />
+<!-- La etiqueta <input> con el atributo "type" igual a "submit" crea un botón de envío del formulario. -->
+<!-- El atributo "value" especifica el texto que se mostrará en el botón. -->
+<!-- Al hacer clic en este botón, se enviarán los datos introducidos por el usuario. -->
+</p>
+</form>
+</body>
+</html>
